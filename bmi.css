@@ -15,7 +15,7 @@ body{
 .whole:not(.calculate){
     border-width: 1px;
     border-radius: 8px;
-    box-shadow: 3px 4px  4px gray;
+    box-shadow: 3px 4px 10px gray;
     height: 250px;
     width: auto;
     padding: 9px;
