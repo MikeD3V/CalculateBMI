@@ -16,13 +16,13 @@ calculate.onclick = function(){
     let r =(weightValue / (heightValue / 100) ** 2) ;
     result.textContent = r;
     if (r <= 18.5) {
-        peyc.src = '/javaPics/u.png';
+        peyc.src = '/bmiPics/u.png';
     } else if (r <= 24.9) {
-        peyc.src = '/javaPics/n.png';
+        peyc.src = '/bmiPics/n.png';
     } else if (r <= 29.9) {
-        peyc.src = '/javaPics/o.png';
+        peyc.src = '/bmiPics/o.png';
     } else {
-        peyc.src = '/javaPics/ob.png';
+        peyc.src = '/bmiPics/ob.png';
     }
 }
 }
